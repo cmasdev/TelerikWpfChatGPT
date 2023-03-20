@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikWpfChat", "TelerikWpfChat\TelerikWpfChat.csproj", "{27CBF12F-4C64-4EB1-8C62-981C074383B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CBF12F-4C64-4EB1-8C62-981C074383B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CBF12F-4C64-4EB1-8C62-981C074383B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CBF12F-4C64-4EB1-8C62-981C074383B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CBF12F-4C64-4EB1-8C62-981C074383B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DFF85C0-CCA7-4490-A92C-4D4D868A2D17}
+	EndGlobalSection
+EndGlobal

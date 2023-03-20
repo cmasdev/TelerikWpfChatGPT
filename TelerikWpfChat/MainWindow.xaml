@@ -1,0 +1,19 @@
+﻿<Window x:Class="TelerikWpfChat.MainWindow"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+                xmlns:local="clr-namespace:TelerikWpfChat"
+                Title="ChatGPT on WPF" Height="600" Width="800">
+    <Grid>
+            <telerik:RadChat Margin="10" CurrentAuthor="{Binding CurrentAuthor}" 
+                             DataSource="{Binding Messages}" 
+                             SendMessage="chat_SendMessage">
+                <telerik:RadChat.DataContext>
+                    <local:ChatViewModel />
+                </telerik:RadChat.DataContext>
+                <telerik:RadChat.MessageConverter>
+                    <local:MessageConverter />
+                </telerik:RadChat.MessageConverter>
+            </telerik:RadChat>
+    </Grid>
+</Window>
